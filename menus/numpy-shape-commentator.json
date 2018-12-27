@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle numpy-shape-commentator",
+        "command": "numpy-shape-commentator:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "numpy-shape-commentator",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "numpy-shape-commentator:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
