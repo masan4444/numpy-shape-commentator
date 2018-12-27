@@ -3,7 +3,6 @@
   "main": "./lib/numpy-shape-commentator",
   "version": "0.0.0",
   "description": "This is atom package for shiba6v's 'shape_commentotor'",
-  "keywords": [],
   "activationCommands": {
     "atom-workspace": "numpy-shape-commentator:toggle"
   },
