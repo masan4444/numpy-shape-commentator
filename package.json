@@ -2,17 +2,26 @@
   "name": "numpy-shape-commentator",
   "main": "./lib/numpy-shape-commentator",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
+  "description": "This is atom package for shiba6v's 'shape_commentotor'",
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "numpy-shape-commentator:toggle"
   },
-  "repository": "https://github.com/atom/numpy-shape-commentator",
+  "repository": "https://github.com/masan4444/numpy-shape-commentator",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-linter": "^10.0.0",
+    "diff": "^3.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
   }
 }
