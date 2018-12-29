@@ -1,10 +1,7 @@
 {
   "context-menu": {
     "atom-text-editor": [
-      {
-        "label": "Toggle numpy-shape-commentator",
-        "command": "numpy-shape-commentator:toggle"
-      }
+
     ]
   },
   "menu": [
@@ -12,11 +9,27 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "numpy-shape-commentator",
+          "label": "Numpy Shape Commentator",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "numpy-shape-commentator:toggle"
+              "label": "Insert Shape Comment",
+              "command": "numpy-shape-commentator:insertShapeComment"
+            },
+            {
+              "label": "Remove Shape Comment",
+              "command": "numpy-shape-commentator:removeShapeComment"
+            },
+            {
+              "label": "Set Arguments",
+              "command": "numpy-shape-commentator:showInputDialog"
+            },
+            {
+              "label": "Highlight Shape Comment",
+              "command": "numpy-shape-commentator:highlightShapeComment"
+            },
+            {
+              "label": "De-highlight Shape Comment",
+              "command": "numpy-shape-commentator:dehighlightShapeComment"
             }
           ]
         }

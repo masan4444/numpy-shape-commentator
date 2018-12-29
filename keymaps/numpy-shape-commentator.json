@@ -1,5 +1,7 @@
 {
-  "atom-workspace": {
-    "ctrl-alt-o": "numpy-shape-commentator:toggle"
+  ".platform-darwin atom-workspace": {
+    "ctrl-shift-alt-c": "numpy-shape-commentator:insertShapeComment",
+    "ctrl-shift-alt-d": "numpy-shape-commentator:removeShapeComment",
+    "ctrl-shift-alt-s": "numpy-shape-commentator:showInputDialog"
   }
 }
