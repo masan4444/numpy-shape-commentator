@@ -4,7 +4,13 @@
   "version": "0.0.0",
   "description": "This is atom package for shiba6v's 'shape_commentotor'",
   "activationCommands": {
-    "atom-workspace": "numpy-shape-commentator:toggle"
+    "atom-workspace": [
+      "numpy-shape-commentator:insertShapeComment",
+      "numpy-shape-commentator:removeShapeComment",
+      "numpy-shape-commentator:showInputDialog",
+      "numpy-shape-commentator:highlightShapeComment",
+      "numpy-shape-commentator:dehighlightShapeComment"
+    ]
   },
   "repository": "https://github.com/masan4444/numpy-shape-commentator",
   "license": "MIT",
@@ -12,8 +18,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-linter": "^10.0.0",
-    "diff": "^3.5.0"
+    "atom-linter": "^10.0.0"
   },
   "devDependencies": {
     "eslint": "^5.11.1",
