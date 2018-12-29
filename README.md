@@ -1,5 +1,25 @@
-# numpy-shape-commentator package
+# numpy-shape-commentator
 
-A short description of your package.
+This is atom package for shiba6v's [shape_commentotor](https://github.com/shiba6v/shape_commentator).
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![A screenshot of your package](https://raw.githubusercontent.com/wiki/masan4444/numpy-shape-commentator/images/success.gif)
+
+## Installation
+Install shape_commentotor
+```
+$ pip3 install shape_commentotor
+```
+or
+```
+$ pip install shape_commentotor
+```
+Install this package
+```
+$ apm install numpy-shape-commentator
+```
+Set executable Path in settings. Default setting is
+```
+python3 -m shape_commentator
+```
+## CAUTION
+This package does NOT work in windows now.
