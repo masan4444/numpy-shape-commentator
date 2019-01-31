@@ -32,3 +32,5 @@ python3 -m shape_commentator
 
 ## CAUTION
 This package does NOT work in windows now.
+
+There is NO test code. I need a programmer who can write javascript test code with jasmine.
