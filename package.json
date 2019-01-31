@@ -1,7 +1,7 @@
 {
   "name": "numpy-shape-commentator",
   "main": "./lib/numpy-shape-commentator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This is atom package for shiba6v's 'shape_commentotor'",
   "activationCommands": {
     "atom-workspace": [
