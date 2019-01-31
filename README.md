@@ -21,5 +21,14 @@ Set executable Path in settings. Default setting is
 ```
 python3 -m shape_commentator
 ```
+
+## Usage
+| Command Name                               | Key Binding                  |
+|--------------------------------------------|------------------------------|
+| numpy-shape-commentator:insertShapeComment | ```ctrl + shift + alt + c``` |
+| numpy-shape-commentator:removeShapeComment | ```ctrl + shift + alt + d``` |
+| numpy-shape-commentator:showInputDialog    | ```ctrl + shift + alt + s``` |
+
+
 ## CAUTION
 This package does NOT work in windows now.
