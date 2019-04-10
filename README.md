@@ -1,6 +1,6 @@
 # numpy-shape-commentator
 
-This is atom package for shiba6v's [shape_commentotor](https://github.com/shiba6v/shape_commentator).
+This is atom package for shiba6v's [shape_commentator](https://github.com/shiba6v/shape_commentator).
 
 ![A screenshot of your package](https://raw.githubusercontent.com/wiki/masan4444/numpy-shape-commentator/images/success.gif)
 
